@@ -1,0 +1,6 @@
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python migrate.py startapp products
+python manage.py makemigrates
+python manage.py migrate
